@@ -44,6 +44,5 @@ object Log {
     type Index = Long
     type Size = Long
     trait LogEntry extends Serializable {
-        val cmd: Command
     }
 }

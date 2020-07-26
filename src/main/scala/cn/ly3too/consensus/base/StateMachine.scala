@@ -27,6 +27,7 @@ trait StateMachine {
 }
 
 object StateMachine {
+    // command to be applied to statemachine and to be saved in log
     trait Command extends Serializable
     trait ReadCommand extends Command
     trait WriteCommand extends Command
